@@ -38,6 +38,13 @@
   }
 }
 
+// Modify only the code blocks
+.article div.highlight pre.highlight {
+    padding: 12px;
+    margin-bottom: 0px;
+    background-color: #f4f6f7
+}
+
 .min-height-full {
   min-height: 100vh;
 }
