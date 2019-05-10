@@ -39,7 +39,8 @@ topics:
     web_url: https://github.com/topics/common-lisp
     image_url: https://sdl-stickershop.line.naver.jp/products/0/0/1/1299646/android/stickers/12120446.png
 
-  - name: C (Embedded)
+  - name: C
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/c/c.png
 
   - name: Emacs
     image_url: https://shop.fsf.org/sites/default/files/styles/product_zoom/public/Emacs-icon.sh_.png
@@ -47,5 +48,21 @@ topics:
   - name: ArchLinux
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Archlinux-icon-crystal-64.svg/1024px-Archlinux-icon-crystal-64.svg.png
 
-  - name: Bash
-    image_url: https://miro.medium.com/max/630/1*FEE98iWinlZBYkxBAG8MvA.png
+  - name: Command Line
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bash/bash.png
+
+future:
+  - name: Rust
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png
+
+  - name: Crystal
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/crystal/crystal.png
+
+  - name: Elixir
+    image_url: https://raw.githubusercontent.com/github/explore/d106aa3f6fa091ab80ab5c8cf0d931baff3caaea/topics/elixir/elixir.png
+
+  - name: Haskell
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/haskell/haskell.png
+
+  - name: Nim
+    image_url: https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nim/nim.png
