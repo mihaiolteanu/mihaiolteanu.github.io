@@ -4,22 +4,22 @@
   <div class="container-lg py-6 p-responsive text-center">
     {% include masthead.html metadata=true %}
 
-    <div align="left" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+    <div align="left" style="font-size:130%;" {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
 
-    <div align="left" class="my-6">
+    <div align="left" style="font-size:130%;" class="my-6">
       {% include projects.html %}
     </div>
 
     {% if site.topics %}
-      <div align="left" class="my-6">
+      <div align="left" style="font-size:130%;" class="my-6">
         {% include interests.html %}
       </div>
     {% endif %}
 
     {% unless posts_total == 0 %}
-      <div align="left" class="my-6">
+      <div align="left" style="font-size:130%;" class="my-6">
         {% include thoughts.html %}
       </div>
     {% endunless %}
