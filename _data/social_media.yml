@@ -44,12 +44,14 @@ medium:
 stackoverflow:
   name: Stack Overflow
   profile_url_prefix: http://stackoverflow.com/u/
-  icon_svg: '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="32px" height="38px" viewBox="-135 22 32 38" enable-background="new -135 22 190 38" xml:space="preserve">
-  <g>
-  <polygon fill="#BCBBBB" points="-108.5,56.2 -108.5,46.3 -105.2,46.3 -105.2,59.5 -135,59.5 -135,46.3 -131.7,46.3 -131.7,56.2       "/>
-  <path fill="#F48024" d="M-128,45.4l16.2,3.4l0.7-3.2l-16.2-3.4L-128,45.4z M-125.9,37.6l15,7l1.4-3l-15-7L-125.9,37.6z     M-121.7,30.2l12.7,10.6l2.1-2.5l-12.7-10.6L-121.7,30.2z M-113.5,22.4l-2.7,2l9.9,13.3l2.7-2L-113.5,22.4z M-128.4,52.9h16.6    v-3.3h-16.6V52.9z"/>
-  </g>
-  </svg>'
+  icon_svg: '<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16pt" height="19pt" viewBox="0 0 16 19" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(73.72549%,73.333333%,73.333333%);fill-opacity:1;" d="M 13.25 17.101562 L 13.25 12.148438 L 14.898438 12.148438 L 14.898438 18.75 L 0 18.75 L 0 12.148438 L 1.648438 12.148438 L 1.648438 17.101562 Z M 13.25 17.101562 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(95.686275%,50.196078%,14.117647%);fill-opacity:1;" d="M 3.5 11.699219 L 11.601562 13.398438 L 11.949219 11.800781 L 3.851562 10.101562 Z M 4.550781 7.800781 L 12.050781 11.300781 L 12.75 9.800781 L 5.25 6.300781 Z M 6.648438 4.101562 L 13 9.398438 L 14.050781 8.148438 L 7.699219 2.851562 Z M 10.75 0.199219 L 9.398438 1.199219 L 14.351562 7.851562 L 15.699219 6.851562 Z M 3.300781 15.449219 L 11.601562 15.449219 L 11.601562 13.800781 L 3.300781 13.800781 Z M 3.300781 15.449219 "/>
+</g>
+</svg>'
+
 
 skype:
   name: Skype

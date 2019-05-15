@@ -7,22 +7,7 @@
     <div align="left" style="font-size:130%;" {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
-
-    <div align="left" style="font-size:130%;" class="my-6">
-      {% include projects.html %}
-    </div>
-
-    {% if site.topics %}
-      <div align="left" style="font-size:130%;" class="my-6">
-        {% include interests.html %}
-      </div>
-    {% endif %}
-
-    {% unless posts_total == 0 %}
-      <div align="left" style="font-size:130%;" class="my-6">
-        {% include thoughts.html %}
-      </div>
-    {% endunless %}
+    
   </div>
 {% else %}
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
@@ -44,9 +29,9 @@
 
         {% include projects.html %}
 
-        {% unless posts_total == 0 %}
-          {% include thoughts.html %}
-        {% endunless %}
+        <!-- {% unless posts_total == 0 %} -->
+        <!--   {% include thoughts.html %} -->
+        <!-- {% endunless %} -->
       </div>
     </div>
   </div>
