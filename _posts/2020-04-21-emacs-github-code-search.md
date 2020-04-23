@@ -21,18 +21,20 @@ them are not relevant. Since I'm using this search feature a lot, I've written
 myself a small, truly non-complicated little interactive function in Emacs to
 speed things up,
 
-```emacs-lisp
+{% highlight emacs-lisp %}
 (defun github-code-search ()
   "Search code on github for a given language."
   (interactive)
   (let ((language (completing-read
                    "Language: "
-                   '(" " "C" "Common Lisp" "Emacs Lisp)))
+                   '(" " "C" "Common Lisp" "Emacs Lisp")))
         (code (read-string "Code: ")))
     (browse-url
-     (concat "https://github.com/search?l=" language
-             "&type=code&q=" code))))
-```
+     (concat "https://github.com/search?l="
+             language
+             "&type=code&q="
+             code))))
+{% endhighlight %}
 
 Replace the language list with your most used languages. A blank string can be
 included for generic searches (i.e. ignore the language).  Calling this function
